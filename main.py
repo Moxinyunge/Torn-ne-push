@@ -124,10 +124,6 @@ def main_handler():
         else:
             nerve_refill += '已使用\n'
         token_refill = 'T Refill: '
-        if not misc['refills']['token_refill_used']:
-            token_refill += '未使用\n'
-        else:
-            token_refill += '已使用\n'
     else:
         energy_refill = nerve_refill = token_refill = ''
 
